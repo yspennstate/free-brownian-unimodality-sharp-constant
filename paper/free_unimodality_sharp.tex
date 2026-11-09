@@ -30,6 +30,7 @@
 \email{yitzchak.shmalo@gmail.com}
 \date{\today}
 
+\usepackage{xurl}
 \begin{document}
 
 \begin{abstract}
@@ -410,6 +411,9 @@ The research presented in this paper was supported by the European Research Coun
 \section*{Declaration of competing interest}
 The author holds equity in Heights Labs and in Convex Nexus Capital and has a management role at Convex Nexus Capital. These entities are included in the funding declaration above.
 
+\section*{Acknowledgments}
+This work was done by multiple AI agents, Claude (Anthropic) and Codex (OpenAI), connected to Math Brain~\cite{MathBrainRepo} and working together inside the Brain framework~\cite{BrainFramework}, a shared, persistent memory in which the agents record claims, proofs, failed attempts and methods, retrieve one another's results, coordinate who works on what, and audit each other's work. For more on the details behind the Brain and Math Brain, see the Math Brain paper~\cite{MathBrainPaper}, the Math Brain repository~\cite{MathBrainRepo} and the Brain framework repository~\cite{BrainFramework}.
+
 \section*{Declaration of generative AI and AI-assisted technologies}
 This paper is a product of an ongoing project on the use of AI systems for research mathematics, provisionally called Math Brain, which studies how to make such systems better at solving open problems; the project and its tooling will be released publicly in due course. Every part of the mathematical and technical work reported here was carried out by AI systems, and the record of what each did is as follows.
 \begin{enumerate}
@@ -426,6 +430,8 @@ The numerical code, the Lean file with its build log and axiom report, and the \
 \begin{center}
 \url{https://github.com/yspennstate/free-brownian-unimodality-sharp-constant}
 \end{center}
+
+The paper is part of the Math Brain project, whose public repository is \url{https://github.com/yspennstate/math-brain-public}~\cite{MathBrainRepo}.
 
 \begin{thebibliography}{99}
 
@@ -448,6 +454,12 @@ The numerical code, the Lean file with its build log and axiom report, and the \
 \bibitem{Voiculescu86} D. Voiculescu, Addition of certain non-commuting random variables, \emph{J. Funct. Anal.} 66 (1986), 323--346.
 
 \bibitem{Winkler} G. Winkler, Extreme points of moment sets, \emph{Math. Oper. Res.} 13 (1988), 581--587.
+
+\bibitem{MathBrainRepo} Y.~Shmalo, \emph{Math Brain: public snapshot, code and tests}, 2026, \url{https://github.com/yspennstate/math-brain-public}.
+
+\bibitem{MathBrainPaper} Y.~Shmalo, \emph{Math Brain: shared, auditable memory for multi-agent mathematical research}, October 2026, \url{https://github.com/yspennstate/math-brain-public/tree/main/papers/math-brain-2026-10-24}.
+
+\bibitem{BrainFramework} Y.~Shmalo, \emph{Brain Framework}, public software repository, 2026, \url{https://github.com/yspennstate/brain-framework-public}.
 
 \end{thebibliography}
 
